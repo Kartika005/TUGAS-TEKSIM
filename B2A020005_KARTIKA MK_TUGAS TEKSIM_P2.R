@@ -1,3 +1,12 @@
+#KARTIKA MEIKHATUL KHAMIDAH (B2A020005)
+
+#Z0 = 11123
+#a = 35
+#c = 437
+#m = 138
+#n = 1000
+#p = 0.65
+
 Additive_RNG<-function(a,z0,c,m,n) {
   xi<-matrix(NA,n,3)
   colnames(xi)<-c("aZ(i-1)+c","Xi","Ui")
